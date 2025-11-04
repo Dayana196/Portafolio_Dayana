@@ -440,7 +440,7 @@ span {
     filter: grayscale(0);
 }
 
-/* --- RESPONSIVE DESIGN --- */
+/* --- RESPONSIVE --- */
 
 @media (max-width: 1024px) {
     .skills-box {
@@ -568,4 +568,107 @@ span {
     font-size: 1.3em;
     color: #ccc;
     margin-bottom: 20px;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    background: url('https://i.pinimg.com/1200x/33/d3/21/33d3216d4fbf1abf3878be6199264bdf.jpg') no-repeat center center/cover;
+    color: white;
+    height: 500px;
+    position: relative;
+    background-color: #5c3f9c;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: #b58eff;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-item {
+    background-color: #b58eff;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+    position: relative;
+}
+
+.contact-item a,
+.contact-item p {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-item i {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #e94e77;
+}
+
+.contact-item:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+}
+
+.contact-item p {
+    font-weight: 300;
+}
+
+.contact-item a:hover i {
+    color: #9e4c96;
+}
+
+
+.contact-item:nth-child(odd),
+.contact-item:nth-child(even) {
+    animation: none;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+#footer p {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 300;
 }
