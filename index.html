@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Website</title>
+
+    <!-- ICONOS Y FUENTES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">itsmich</a>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- ===== HOME SECTION ===== -->
+    <section id="home" class="home">
+        <div class="home-img">
+            <img src="porta_daya.jpg" alt="Dayana's profile photo">
+        </div>
+
+        <div class="home-content">
+            <h1>Hey, it's <span>Dayana</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+
+            <p>
+                I'm Dayana, a passionate Software Developer who enjoys learning and creating new things every day.
+                I love the world of technology because it allows me to combine logic and creativity to bring ideas
+                to life that can make a difference.
+            </p>
+
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h1 class="section-title autoDisplay">
+            My Skills
+        </h1>
+        <div class="skills-box autoDisplay">
+            <img class="skills-image" src="images/digital brain (2).png" alt="">
+            <div class="Designer">
+                <h1 class="gradient">Designer <i class='bx bx-laptop'></i></h1>
+                <p>I design expressive and elegant visual interfaces using Figma and Canva.
+                    I love combining soft colors, modern visuals, and balanced structure to make each project feel
+                    alive and unique.</p>
+            </div>
+
+            <div class="coder">
+                <h1 class="gradient">Coder <i class='bx bx-code-block'></i></h1>
+                <p>I'm skilled in HTML, CSS, JavaScript, Python and MySQL.
+                    I focus on building functional and visually structured web projects that combine logic and creativity.</p>
+            </div>
+
+            <div class="slider" reverse="true" style="
+                --width: 100px;
+                --height: 100px;
+                --quantity: 11;
+                ">
+                <div class="list">
+                    <div class="item" style="--position: 1"><img src="images/visual.png" alt=""></div>
+                    <div class="item" style="--position: 2"><img src="images/2.png" alt=""></div>
+                    <div class="item" style="--position: 3"><img src="images/3.webp" alt=""></div>
+                    <div class="item" style="--position: 4"><img src="images/5.png" alt=""></div>
+                    <div class="item" style="--position: 5"><img src="images/pythonn.png" alt=""></div>
+                    <div class="item" style="--position: 6"><img src="images/html.png" alt=""></div>
+                    <div class="item" style="--position: 7"><img src="images/7.png" alt=""></div>
+                    <div class="item" style="--position: 8"><img src="images/mysql.png" alt=""></div>
+                    <div class="item" style="--position: 9"><img src="images/12.png" alt=""></div>
+                    <div class="item" style="--position: 10"><img src="images/figma.png" alt=""></div>
+                    <div class="item" style="--position: 11"><img src="images/canva.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Explore my latest creations</p>
+
+        <div class="projects-container">
+            <!-- PROJECT 1 -->
+            <div class="project-card">
+                <img src="JS_WEB.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Sweet Store</h3>
+                    <p>
+                        This project is an e-commerce website built with <strong>HTML, CSS, and JavaScript</strong>.
+                        It allows users to browse and purchase clothes or accessories, add items to the cart,
+                        and experience a realistic and modern shopping design.
+                    </p>
+                    <a href="https://github.com/Dayana196/Project_JS" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 2 -->
+            <div class="project-card">
+                <img src="web_carros.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Web Cars</h3>
+                    <p>
+                        An interactive car showcase website created with <strong>HTML and CSS</strong>.
+                        Users can explore different car models, view prices, and details.
+                        It also includes a stylish <strong>login page</strong> design.
+                    </p>
+                    <a href="https://github.com/Dayana196/Pagina_Web_Carros" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- PROJECT 3 -->
+            <div class="project-card">
+                <img src="images/mysql1.jpg" alt="Project 3">
+                <div class="project-info">
+                    <h3>Glow E-commerce Database</h3>
+                    <p>
+                        This project focuses on the design and implementation of a <strong>MySQL database</strong>
+                        for an e-commerce system called <strong>Glow</strong>, specialized in selling makeup, clothing,
+                        and accessories. It efficiently manages data related to products, customers, orders,
+                        branches, employees, suppliers, and transactions — ensuring data integrity and optimizing
+                        queries for sales and operations analysis.
+                    </p>
+                    <a href="https://github.com/yourusername/project3" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
