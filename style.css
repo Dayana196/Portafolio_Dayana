@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap);
 
 * {
     margin: 0;
@@ -7,21 +7,21 @@
     text-decoration: none;
     border: none;
     outline: none;
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
-
-
 
 body {
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -96,7 +96,6 @@ nav a.active {
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid rgb(209, 59, 247);
-        ;
     }
 }
 
@@ -189,24 +188,22 @@ span {
 }
 
 .btn {
-    display: flex;
-    padding: 1rem 2.8rem;
-    background-color: black;
-    border-radius: 4rem;
-    font-size: 1.6rem;
-    color: rgb(119, 7, 119);
-    letter-spacing: 0.3rem;
-    font-weight: 600;
-    border: 2px solid rgb(165, 80, 245);
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(90deg, #ff66cc, #a64dff);
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
     transition: 0.3s ease;
-    cursor: pointer;
+    box-shadow: 0 0 15px rgba(255, 102, 204, 0.3);
 }
 
 .btn:hover {
-    transform: scale3d(1.03);
-    background-color: rgb(137, 39, 230);
-    color: black;
-    box-shadow: 0 0 25px rgb(165, 80, 245);
+    background: linear-gradient(90deg, #a64dff, #ff66cc);
+    box-shadow: 0 0 25px rgba(255, 102, 204, 0.6);
+    transform: scale(1.05);
 }
 
 .typing-text {
@@ -286,12 +283,12 @@ span {
 }
 
 .section-title {
-    font-size: 70px;
-
-    font-weight: 800;
-    color: #b48ef2;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font-size: 2.8em;
+    background: linear-gradient(90deg, #b86eff, #8000ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    letter-spacing: 2px;
     text-align: center;
     margin-bottom: 60px;
     position: relative;
@@ -316,7 +313,7 @@ span {
 }
 
 .skills-section {
-    padding: 20px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -356,9 +353,12 @@ span {
 }
 
 .Designer p {
-    line-height: 23px;
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    color: #dcd2ff;
+    text-align: justify;
 }
-
 
 .coder {
     position: absolute;
@@ -381,13 +381,9 @@ span {
     font-size: 1.5rem;
 }
 
-
-
 .coder-text {
-
     font-size: 50px;
 }
-
 
 .slider {
     position: absolute;
@@ -444,11 +440,80 @@ span {
     filter: grayscale(0);
 }
 
+/* --- RESPONSIVE DESIGN --- */
 
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
+@media (max-width: 1024px) {
+    .skills-box {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .skills-image {
+        width: 85%;
+    }
+
+    .Designer,
+    .coder {
+        position: static;
+        align-items: center;
+        text-align: center;
+        max-width: 90%;
+        margin: 20px 0;
+    }
+
+    .Designer h1,
+    .coder h1 {
+        font-size: 40px;
+    }
+
+    .Designer p,
+    .coder p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .slider {
+        position: relative;
+        bottom: auto;
+        right: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-section {
+        padding: 10px;
+    }
+
+    .section-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .skills-image {
+        width: 100%;
+        opacity: 0.8;
+    }
+
+    .Designer h1,
+    .coder h1 {
+        font-size: 28px;
+    }
+
+    .Designer p,
+    .coder p {
+        font-size: 14px;
+    }
+
+    .slider .item {
+        width: 100px;
+        margin: 0 10px;
+    }
+
+    .slider {
+        opacity: 0.9;
+    }
 }
 
 .projects-section {
@@ -456,19 +521,10 @@ body {
     padding: 80px 40px;
 }
 
-.section-title {
-    font-size: 2.8em;
-    background: linear-gradient(90deg, #b86eff, #8000ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    letter-spacing: 2px;
-}
-
 .section-subtitle {
-    color: #aaa;
+    color: #ffffff;
     margin-bottom: 50px;
-    font-size: 1.1em;
+    font-size: 1.7em;
 }
 
 .projects-container {
@@ -509,26 +565,7 @@ body {
 }
 
 .project-info p {
-    font-size: 0.95em;
+    font-size: 1.3em;
     color: #ccc;
     margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 22px;
-    background: linear-gradient(90deg, #ff66cc, #a64dff);
-    border-radius: 25px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    transition: 0.3s ease;
-    box-shadow: 0 0 15px rgba(255, 102, 204, 0.3);
-}
-
-.btn:hover {
-    background: linear-gradient(90deg, #a64dff, #ff66cc);
-    box-shadow: 0 0 25px rgba(255, 102, 204, 0.6);
-    transform: scale(1.05);
 }
