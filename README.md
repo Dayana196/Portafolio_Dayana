@@ -23,7 +23,7 @@ Para colaborar o realizar consultas, puedes contactarme a través de los siguien
 - **WhatsApp**: +57 312 5729 799
 
 # Link Portafolio
-- https://dayana-portafolio.netlify.app/#contact
+- https://dayana-portafolio.netlify.app/
 
 ## Licencia
 
