@@ -9,7 +9,7 @@ Este es el portafolio personal de **Dayana Barbosa**, una desarrolladora de soft
 - **Proyectos (Projects)**: Una galería de mis proyectos más recientes, donde comparto detalles sobre el desarrollo de sitios web y bases de datos que he trabajado.
 - **Contacto (Contact)**: Ofrezco varias formas de contacto.
 
-## Tecnologías Utilizadas
+## Tecnologías 
 
 - **Diseño**: Figma, Canva
 - **Desarrollo**: HTML, CSS, JavaScript, Python, MySQL
@@ -20,7 +20,6 @@ Para colaborar o realizar consultas, puedes contactarme a través de los siguien
 
 - **Correo electrónico**: dayanita1204bb@gmail.com
 - **LinkedIn**: [linkedin.com/in/dayana-barbosa-47a46b314](https://www.linkedin.com/in/dayana-barbosa-47a46b314/)
-- **WhatsApp**: +57 312 5729 799
 
 # Link Portafolio
 - https://dayana-portafolio.netlify.app/
