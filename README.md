@@ -22,6 +22,9 @@ Para colaborar o realizar consultas, puedes contactarme a través de los siguien
 - **LinkedIn**: [linkedin.com/in/dayana-barbosa-47a46b314](https://www.linkedin.com/in/dayana-barbosa-47a46b314/)
 - **WhatsApp**: +57 312 5729 799
 
+# Link Portafolio
+- https://dayana-portafolio.netlify.app/#contact
+
 ## Licencia
 
 Este proyecto está bajo la **Licencia MIT**.
