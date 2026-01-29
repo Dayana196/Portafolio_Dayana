@@ -5,7 +5,7 @@ Este es el portafolio personal de **Dayana Barbosa**, una desarrolladora de soft
 ## Características del Portafolio
 
 - **Sección de Bienvenida (Home)**: Una presentación sobre mí, mi enfoque en el desarrollo de software.
-- **Habilidades (Skills)**: Muestra mis competencias en desarrollo web, incluyendo diseño y programación. Aquí destaco mis conocimientos en herramientas como **Figma** y **Canva**, así como en lenguajes de programación como **HTML**, **CSS**, **JavaScript**, **Python** y bases de datos **MySQL**.
+- **Habilidades (Skills)**: Muestra mis competencias en desarrollo web, incluyendo diseño y programación. Aquí destaco mis conocimientos en herramientas como **Figma** y **Canva**, así como en lenguajes de programación como **HTML**, **CSS**, **JavaScript**, **Python** y bases de datos **MySQL**, **Spring Boot** y **Java**.
 - **Proyectos (Projects)**: Una galería de mis proyectos más recientes, donde comparto detalles sobre el desarrollo de sitios web y bases de datos que he trabajado.
 - **Contacto (Contact)**: Ofrezco varias formas de contacto.
 
