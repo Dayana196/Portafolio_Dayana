@@ -21,8 +21,6 @@ Para colaborar o realizar consultas, puedes contactarme a través de los siguien
 - **Correo electrónico**: dayanita1204bb@gmail.com
 - **LinkedIn**: [linkedin.com/in/dayana-barbosa-47a46b314](https://www.linkedin.com/in/dayana-barbosa-47a46b314/)
 
-# Link Portafolio
-- https://dayana-portafolio.netlify.app/
 
 ## Licencia
 
